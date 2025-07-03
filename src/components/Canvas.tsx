@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { fabric } from "fabric";
-import { DrawingMode } from "../App";
+import { DrawingMode } from "../types";
 
 interface CanvasProps {
   drawingMode: DrawingMode;

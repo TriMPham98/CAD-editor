@@ -1,4 +1,4 @@
-import { DrawingMode } from "../App";
+import { DrawingMode } from "../types";
 
 interface ToolbarProps {
   drawingMode: DrawingMode;

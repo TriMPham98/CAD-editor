@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Canvas from "./components/Canvas";
 import Toolbar from "./components/Toolbar";
-
-export type DrawingMode = "select" | "rectangle" | "circle" | "line" | "text";
+import { DrawingMode } from "./types";
 
 function App() {
   const [drawingMode, setDrawingMode] = useState<DrawingMode>("select");
