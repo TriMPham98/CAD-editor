@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/fabric": "^5.3.10",
     "autoprefixer": "^10.4.21",
     "fabric": "^6.7.0",
