@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the CAD editor */
+.canvas-container {
+  @apply border border-gray-300 shadow-lg;
+}
